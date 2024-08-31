@@ -1,0 +1,13 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <id>com.github.simbaclaws.intellijradiumtheme</id>
+    <name>RadiumTheme</name>
+    <vendor>simbaclaws</vendor>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="com.github.simbaclaws.intellijradiumtheme" path="/theme/radium.theme.json" />
+    </extensions>
+
+</idea-plugin>
